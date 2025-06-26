@@ -1,0 +1,5 @@
+{
+  "require": {
+    "phpmailer/phpmailer": "5.2.0"  // ❌ Versión antigua vulnerable (SCA puede detectarla)
+  }
+}

@@ -1,0 +1,7 @@
+sonar.projectKey=clindata_php
+sonar.projectName=Clindata App PHP
+sonar.projectVersion=1.0
+
+sonar.sources=.
+sonar.sourceEncoding=UTF-8
+sonar.language=php
