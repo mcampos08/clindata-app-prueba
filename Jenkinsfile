@@ -30,7 +30,7 @@ pipeline {
             steps {
                 sh '''
                 mkdir -p dependency-check
-                dependency-check.sh --project "clindata-app" --scan . --format "HTML" --out dependency-check
+                dependency-check --project "clindata-app" --scan . --format "HTML" --out dependency-check
                 '''
             }
         }
