@@ -136,7 +136,7 @@ pipeline {
                     ls -la reports/ || echo "Directorio reports no existe"
                     
                     echo "Archivos PHP en el proyecto:"
-                    find . -name "*.php" -exec echo "Archivo: {}" \;
+                    find . -name "*.php" -exec echo "Archivo: {}" \\;
                 '''
             }
         }
